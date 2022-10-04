@@ -1,13 +1,21 @@
-import { Card, CardImg, CardImgOverlay, CardTitle } from "reactstrap";
+import {
+  Card,
+  CardBody,
+  CardImg,
+  CardImgOverlay,
+  CardTitle,
+  CardText
+} from "reactstrap";
 
-const CrochetScarf = (props) => {
+const CrochetScarf = ({ crochet }) => {
+  const { image, name, description, colors } = crochet;
   return (
     <Card>
-      <CardImg
-        width="100%"
-        src={props.crochet.image}
-        alt={props.crochet.name}
-      />
+      <CardImg src={(image, colors)} alt={name} />
+      <CardBody>
+        <CardTitle>{name}</CardTitle>
+        <CardText>{description}</CardText>
+      </CardBody>
     </Card>
   );
 };
