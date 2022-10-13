@@ -14,15 +14,14 @@ const Footer = () => {
               className="btn btn-social-icon btn-instagram"
               href="http://instagram.com/"
             >
-              <i className="=fa fa-instagram" />
+              <i className="fa fa-instagram" />
             </a>{" "}
             <a
               className="btn btn-social-icon btn-facebook"
               href="http://www.facebook.com/"
             >
-              <i className="=fa fa-facebook" />
-            </a>
-            {""}
+              <i className="fa fa-facebook" />
+            </a>{" "}
           </Col>
           <Col sm="4" className="text-center">
             <a role="button" className="btn btn-link" href="tel:+6035551234">
