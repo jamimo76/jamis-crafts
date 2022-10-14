@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10px;
   pointer-events: none;
 }
 
@@ -35,4 +35,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+.site-footer {
+  background-image: linear-gradient(#3e3c4e, white);
+  padding: 20px 0;
+  margin-top: 2rem;
 }

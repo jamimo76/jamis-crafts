@@ -11,7 +11,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <Navbar dark color="primary" sticky="side" expand="md">
+    <Navbar light color sticky="top" >
       <NavbarBrand href="/">
         <img src={YarnLogo} alt="Yarn Logo" />
       </NavbarBrand>
